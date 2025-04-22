@@ -24,7 +24,7 @@ Clone the Repository:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/jaipur-smart-city-presentation.git
+git clone https://github.com/yourusername/Jaipur-Smart-City.git
 cd jaipur-smart-city-presentation
 Install Dependencies:
 
