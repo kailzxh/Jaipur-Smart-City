@@ -111,7 +111,7 @@ transition: zoom-in
   </div>
   
   <div class="bg-white bg-opacity-15 backdrop-blur-sm p-4 rounded-lg" v-motion :initial="{ y: 100, opacity: 0 }" :enter="{ y: 0, opacity: 1, transition: { delay: 600 } }">
-    <carbon:energy class="text-4xl mx-auto text-yellow-400" />
+    <carbon-battery-charging class="text-4xl mx-auto text-yellow-400" />
     <h3 class="text-xl font-bold mt-2">Energy Inefficiency</h3>
   </div>
 </div>
@@ -353,7 +353,7 @@ transition: slide-up
   </div>
   
   <div class="bg-gradient-to-br from-purple-500 to-purple-700 text-white p-6 rounded-xl shadow-lg" v-motion :initial="{ y: 50, opacity: 0 }" :enter="{ y: 0, opacity: 1, transition: { delay: 400 } }">
-    <carbon:kiosk class="text-5xl mb-4" />
+    <carbon-store class="text-5xl mb-4" />
     <h3 class="text-xl font-bold mb-2">Digital Kiosks</h3>
     <p class="text-sm opacity-80">Self-service terminals for government services and tourist information</p>
   </div>
@@ -380,7 +380,7 @@ transition: fade-out
   <div class="space-y-4">
     <div v-click class="flex items-start">
       <div class="bg-blue-500 p-2 rounded-full text-white mr-4">
-        <carbon:meters class="text-xl" />
+        <mdi-gauge class="text-xl" />
       </div>
       <div>
         <h3 class="font-bold">Smart Meters</h3>
@@ -643,7 +643,7 @@ transition: fade-out
   </div>
   
   <div v-click class="bg-pink-100 p-3 rounded-lg">
-    <carbon:connectivity class="text-pink-600 text-2xl mb-2" />
+    <mdi-wifi class="text-pink-600 text-2xl mb-2" />
     <p class="text-sm font-medium">Wi-Fi Heritage Zones</p>
   </div>
 </div>
@@ -846,7 +846,7 @@ transition: slide-up
   <div v-click class="col-span-4 bg-white rounded-xl shadow-lg overflow-hidden">
     <div class="h-2 bg-green-500"></div>
     <div class="p-5">
-      <carbon:pill class="text-4xl text-green-500 mb-3" />
+      <mdi-pill class="text-4xl text-green-500 mb-3" />
       <h3 class="font-bold">e-Pharmacy Network</h3>
       <p class="text-sm mt-2">Medicine delivery optimized by demand patterns</p>
     </div>
@@ -1061,7 +1061,7 @@ transition: fade
     <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg blur opacity-30 group-hover:opacity-50 transition duration-300"></div>
     <div class="relative bg-white p-5 rounded-lg shadow-lg">
       <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
-        <carbon:award class="text-3xl text-blue-600" />
+        <carbon-trophy class="text-3xl text-blue-600" />
       </div>
       <h3 class="font-bold mb-2">Smart Cities India Award</h3>
       <p class="text-sm text-gray-600">Heritage Conservation Category, 2022</p>
@@ -1114,7 +1114,7 @@ class: text-center
 
 <div class="abs-bl m-6 flex gap-2">
   <a href="https://www.smartcities.gov.in/" target="_blank" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:global />
+    <carbon-globe />
   </a>
   <a href="https://jscljaipur.in/" target="_blank" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon:home />
