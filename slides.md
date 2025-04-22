@@ -1,7 +1,7 @@
 ---
 # Jaipur: The Journey to a Smart City
 theme: seriph
-background: https://source.unsplash.com/Nc5Q_CEcY44/1920x1080
+background: https://images.unsplash.com/photo-1730100628933-71caa2821ca9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -40,7 +40,7 @@ transition: fade-out
   <div v-motion
     :initial="{ x: -80, opacity: 0 }"
     :enter="{ x: 0, opacity: 1, transition: { delay: 200, duration: 1000 } }">
-    <img src="https://source.unsplash.com/MqnbkkqEwwA/400x300" class="rounded-lg shadow-xl" />
+    <img src="https://plus.unsplash.com/premium_photo-1697730286559-98b1a193eef6?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="rounded-lg shadow-xl" />
     <p class="text-sm opacity-70 mt-2">Traditional architecture of Jaipur</p>
   </div>
 </div>
@@ -79,11 +79,11 @@ transition: slide-up
 
 <div class="grid grid-cols-2 gap-4">
   <div v-motion :initial="{ x: -100, opacity: 0 }" :enter="{ x: 0, opacity: 1 }">
-    <img src="https://source.unsplash.com/SulW6KDXCbI/450x300" class="rounded-lg shadow-xl" />
+    <img src="https://images.unsplash.com/photo-1584297875607-e85a9608d5b7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="rounded-lg shadow-xl" />
     <p class="text-sm opacity-50 mt-2">Traditional Jaipur</p>
   </div>
   <div v-motion :initial="{ x: 100, opacity: 0 }" :enter="{ x: 0, opacity: 1, transition: { delay: 500 } }">
-    <img src="https://source.unsplash.com/KeUMfbfoHX0/450x300" class="rounded-lg shadow-xl" />
+    <img src="https://jaipurbeat.com/wp-content/uploads/2016/05/9-wtp1.jpg" class="rounded-lg shadow-xl" />
     <p class="text-sm opacity-50 mt-2">Modern Developments</p>
   </div>
 </div>
@@ -111,7 +111,7 @@ transition: zoom-in
   </div>
   
   <div class="bg-white bg-opacity-15 backdrop-blur-sm p-4 rounded-lg" v-motion :initial="{ y: 100, opacity: 0 }" :enter="{ y: 0, opacity: 1, transition: { delay: 600 } }">
-    <carbon-battery-charging class="text-4xl mx-auto text-yellow-400" />
+    <carbon:battery-charging class="text-4xl mx-auto text-yellow-400" />
     <h3 class="text-xl font-bold mt-2">Energy Inefficiency</h3>
   </div>
 </div>
@@ -158,7 +158,7 @@ transition: slide-left
 ---
 transition: fade
 layout: image-right
-image: https://source.unsplash.com/2d4lAQAlbDA/800x900
+image: https://images.unsplash.com/photo-1686477316633-562a65893e36?q=80&w=1977&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 
 # Turning Point: Smart City Mission
@@ -188,48 +188,46 @@ image: https://source.unsplash.com/2d4lAQAlbDA/800x900
 ---
 layout: center
 transition: slide-up
+render: true
 ---
-
-# Smart City Implementation Timeline
 
 <div class="w-full pt-6" v-motion :initial="{ y: 80, opacity: 0 }" :enter="{ y: 0, opacity: 1 }">
   <div class="relative h-24">
     <!-- Timeline Line -->
     <div class="absolute w-full h-1 bg-gray-300 top-1/2"></div>
-    
+
     <!-- Timeline Points -->
-    <div v-click class="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-1">
+  <div v-click class="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-1">
       <div class="w-6 h-6 rounded-full bg-red-500 border-4 border-white shadow-lg"></div>
       <div class="absolute top-8 -left-14 w-28 text-center">
         <p class="text-sm font-bold">2015</p>
         <p class="text-xs">Selection</p>
       </div>
     </div>
-    
-    <div v-click class="absolute left-1/4 top-1/2 transform -translate-y-1/2">
+
+  <div v-click class="absolute left-1/4 top-1/2 transform -translate-y-1/2">
       <div class="w-6 h-6 rounded-full bg-yellow-500 border-4 border-white shadow-lg"></div>
       <div class="absolute top-8 -left-14 w-28 text-center">
         <p class="text-sm font-bold">2017</p>
         <p class="text-xs">Planning Phase</p>
       </div>
     </div>
-    
-    <div v-click class="absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-3">
+
+  <div v-click class="absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-3">
       <div class="w-6 h-6 rounded-full bg-green-500 border-4 border-white shadow-lg"></div>
       <div class="absolute top-8 -left-14 w-28 text-center">
         <p class="text-sm font-bold">2019</p>
         <p class="text-xs">Implementation</p>
       </div>
     </div>
-    
-    <div v-click class="absolute left-3/4 top-1/2 transform -translate-y-1/2">
+
+  <div v-click class="absolute left-3/4 top-1/2 transform -translate-y-1/2">
       <div class="w-6 h-6 rounded-full bg-blue-500 border-4 border-white shadow-lg"></div>
       <div class="absolute top-8 -left-14 w-28 text-center">
         <p class="text-sm font-bold">2021</p>
         <p class="text-xs">Major Milestones</p>
       </div>
     </div>
-    
     <div v-click class="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-1">
       <div class="w-6 h-6 rounded-full bg-purple-500 border-4 border-white shadow-lg"></div>
       <div class="absolute top-8 -left-14 w-28 text-center">
@@ -237,14 +235,16 @@ transition: slide-up
         <p class="text-xs">Advanced Phase</p>
       </div>
     </div>
+    
   </div>
 </div>
+
 
 <!-- Timeline showing key milestones in Jaipur's smart city journey -->
 
 ---
 layout: image-left
-image: https://source.unsplash.com/mFnbFaCIu1I/800x800
+image: https://images.unsplash.com/photo-1740052969517-dca821fd4b69?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 transition: slide-up
 ---
 
@@ -281,7 +281,7 @@ transition: slide-left
 
 <div class="grid grid-cols-2 gap-8 pt-10">
   <div class="relative overflow-hidden rounded-xl shadow-xl" v-motion :initial="{ x: -50, opacity: 0 }" :enter="{ x: 0, opacity: 1 }">
-    <img src="https://source.unsplash.com/vP6bVNMYoX0/500x300" class="w-full h-64 object-cover" />
+    <img src="https://images.unsplash.com/photo-1648515298105-d8c30a81c13a?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-full h-64 object-cover" />
     <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
       <h3 class="text-white text-xl font-bold">Adaptive Traffic Signals</h3>
       <p class="text-white text-sm opacity-80">Responds to real-time traffic conditions</p>
@@ -289,7 +289,7 @@ transition: slide-left
   </div>
   
   <div class="relative overflow-hidden rounded-xl shadow-xl" v-motion :initial="{ x: 50, opacity: 0 }" :enter="{ x: 0, opacity: 1, transition: { delay: 300 } }">
-    <img src="https://source.unsplash.com/Wpnoqo2plFA/500x300" class="w-full h-64 object-cover" />
+    <img src="https://images.unsplash.com/photo-1732149779890-3fe3e7b5fdb8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-full h-64 object-cover" />
     <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
       <h3 class="text-white text-xl font-bold">Traffic Monitoring Center</h3>
       <p class="text-white text-sm opacity-80">Centralizing control and response systems</p>
@@ -313,7 +313,7 @@ transition: zoom-in
 # Smart Street Lighting
 
 <div class="relative w-full h-80" v-motion :initial="{ opacity: 0 }" :enter="{ opacity: 1, transition: { duration: 1500 } }">
-  <img src="https://source.unsplash.com/z9hvkSDWMzw/1000x600" class="w-full h-full object-cover rounded-xl" />
+  <img src="https://plus.unsplash.com/premium_photo-1739739796004-0e0132daa87a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-cover rounded-xl" />
   
   <div v-click class="absolute top-10 left-10 bg-white/80 backdrop-blur-sm p-3 rounded-lg shadow-lg">
     <h3 class="text-lg font-bold text-gray-800">LED Conversion</h3>
@@ -353,7 +353,7 @@ transition: slide-up
   </div>
   
   <div class="bg-gradient-to-br from-purple-500 to-purple-700 text-white p-6 rounded-xl shadow-lg" v-motion :initial="{ y: 50, opacity: 0 }" :enter="{ y: 0, opacity: 1, transition: { delay: 400 } }">
-    <carbon-store class="text-5xl mb-4" />
+    <carbon:store class="text-5xl mb-4" />
     <h3 class="text-xl font-bold mb-2">Digital Kiosks</h3>
     <p class="text-sm opacity-80">Self-service terminals for government services and tourist information</p>
   </div>
@@ -375,12 +375,12 @@ transition: fade-out
 # Smart Water Management
 
 <div class="pr-10">
-  <img src="https://source.unsplash.com/hCQdjdGTRGs/400x300" class="rounded-lg shadow-lg mb-6" />
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToiynbzeUi1oMbc6_EIpELzVYIc0xMrp9svw&s" class="rounded-lg shadow-lg mb-6" />
   
   <div class="space-y-4">
     <div v-click class="flex items-start">
       <div class="bg-blue-500 p-2 rounded-full text-white mr-4">
-        <mdi-gauge class="text-xl" />
+        <mdi:gauge class="text-xl" />
       </div>
       <div>
         <h3 class="font-bold">Smart Meters</h3>
@@ -459,7 +459,7 @@ transition: slide-left
       </li>
     </ul>
     
-    <img src="https://source.unsplash.com/VocA9UgXIYE/400x200" class="mt-6 rounded-lg shadow-md" />
+    <img src="https://images.unsplash.com/photo-1591284080149-58e039950b29?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="mt-6 rounded-lg shadow-md" />
   </div>
   
   <div class="text-left" v-motion :initial="{ x: 50, opacity: 0 }" :enter="{ x: 0, opacity: 1, transition: { delay: 300 } }">
@@ -479,7 +479,7 @@ transition: slide-left
       </li>
     </ul>
     
-    <img src="https://source.unsplash.com/r-enAOPw8Rs/400x200" class="mt-6 rounded-lg shadow-md" />
+    <img src="https://plus.unsplash.com/premium_photo-1726786836056-79f08e0334fa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="mt-6 rounded-lg shadow-md" />
   </div>
 </div>
 
@@ -557,7 +557,7 @@ transition: slide-up
 # Public Safety & Security
 
 <div class="pr-6">
-  <img src="https://source.unsplash.com/jG1z5o7NCq4/400x250" class="rounded-xl shadow-lg mb-6" />
+  <img src="https://images.unsplash.com/photo-1651338703370-e292e06239dc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNpdHklMjBzZXJjdXJpdHklMjBzeXN0ZW0lMjBjYW1lcmFzfGVufDB8MHwwfHx8MA%3D%3D" class="rounded-xl shadow-lg mb-6" />
   
   <div v-click>
     <h3 class="text-lg font-bold text-red-600 mb-2">Integrated Command Center</h3>
@@ -615,7 +615,7 @@ transition: fade-out
   <div v-motion :initial="{ x: -80, opacity: 0 }" :enter="{ x: 0, opacity: 1 }">
     <img src="https://source.unsplash.com/EXdXLrZXS9Q/500x300" class="rounded-lg shadow-lg mb-4" />
     
-    <div v-click class="bg-white/90 backdrop-blur-sm rounded-lg p-4 -mt-20 mx-10 relative shadow-lg z-10">
+  <div v-click class="bg-white/90 backdrop-blur-sm rounded-lg p-4 -mt-20 mx-10 relative shadow-lg z-10">
       <h3 class="font-bold text-pink-600">AR Historical Experiences</h3>
       <p class="text-sm">Bringing monuments to life with augmented reality</p>
     </div>
@@ -624,7 +624,7 @@ transition: fade-out
   <div v-motion :initial="{ x: 80, opacity: 0 }" :enter="{ x: 0, opacity: 1, transition: { delay: 300 } }">
     <img src="https://source.unsplash.com/yZ4cX5-Vu2o/500x300" class="rounded-lg shadow-lg mb-4" />
     
-    <div v-click class="bg-white/90 backdrop-blur-sm rounded-lg p-4 -mt-20 mx-10 relative shadow-lg z-10">
+  <div v-click class="bg-white/90 backdrop-blur-sm rounded-lg p-4 -mt-20 mx-10 relative shadow-lg z-10">
       <h3 class="font-bold text-pink-600">Smart Tourist Guides</h3>
       <p class="text-sm">Personalized recommendations and navigation</p>
     </div>
@@ -643,7 +643,7 @@ transition: fade-out
   </div>
   
   <div v-click class="bg-pink-100 p-3 rounded-lg">
-    <mdi-wifi class="text-pink-600 text-2xl mb-2" />
+    <carbon:wifi class="text-pink-600 text-2xl mb-2" />
     <p class="text-sm font-medium">Wi-Fi Heritage Zones</p>
   </div>
 </div>
@@ -653,7 +653,7 @@ transition: fade-out
 ---
 layout: center
 transition: zoom-in
-background: https://source.unsplash.com/Ln6yJ5k0Dw8/1920x1080
+background: https://plus.unsplash.com/premium_photo-1680302170723-1318f0a8859b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 class: text-center
 ---
 
@@ -700,16 +700,16 @@ transition: slide-left
     <h3 class="text-xl font-bold text-green-600 mb-4">Air Quality Management</h3>
     <img src="https://source.unsplash.com/9NCZyWkYWiU/500x250" class="rounded-lg shadow-lg mb-4" />
     
-    <div class="bg-white/90 backdrop-blur-sm p-4 rounded-lg shadow-md -mt-16 mx-16 relative z-10">
+  <div class="bg-white/90 backdrop-blur-sm p-4 rounded-lg shadow-md -mt-16 mx-16 relative z-10">
       <p class="text-sm">Network of 50+ IoT-based air quality monitors providing real-time data</p>
     </div>
   </div>
   
   <div v-click>
     <h3 class="text-xl font-bold text-blue-600 mb-4">Noise Pollution Control</h3>
-    <img src="https://source.unsplash.com/yxLVlEMHgQ8/500x250" class="rounded-lg shadow-lg mb-4" />
+    <img src="https://images.unsplash.com/photo-1605776988089-105148e14767?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="rounded-lg shadow-lg mb-4" />
     
-    <div class="bg-white/90 backdrop-blur-sm p-4 rounded-lg shadow-md -mt-16 mx-16 relative z-10">
+  <div class="bg-white/90 backdrop-blur-sm p-4 rounded-lg shadow-md -mt-16 mx-16 relative z-10">
       <p class="text-sm">Smart sensors in high-traffic areas with automated enforcement system</p>
     </div>
   </div>
@@ -750,7 +750,7 @@ transition: fade
 # Urban Development Transformation
 
 <div class="pr-10">
-  <img src="https://source.unsplash.com/_WuPjE-MPHo/400x300" class="rounded-lg shadow-lg mb-6" />
+  <img src="https://images.unsplash.com/photo-1551035418-5e03824702e5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVkZXN0cmFpbiUyMGZyaWVuZGx5fGVufDB8MHwwfHx8MA%3D%3D" class="rounded-lg shadow-lg mb-6" />
   
   <div class="space-y-4">
     <div v-click class="flex items-start">
@@ -763,7 +763,7 @@ transition: fade
       </div>
     </div>
     
-    <div v-click class="flex items-start">
+  <div v-click class="flex items-start">
       <div class="bg-teal-500 p-2 rounded-full text-white mr-4">
         <carbon:tree class="text-xl" />
       </div>
@@ -773,7 +773,7 @@ transition: fade
       </div>
     </div>
     
-    <div v-click class="flex items-start">
+  <div v-click class="flex items-start">
       <div class="bg-teal-500 p-2 rounded-full text-white mr-4">
         <carbon:building class="text-xl" />
       </div>
@@ -798,14 +798,14 @@ transition: fade
       <div class="absolute right-6 top-1/2 transform -translate-y-1/2 font-bold">25%</div>
     </div>
     
-    <div v-click class="relative h-16">
+  <div v-click class="relative h-16">
       <div class="absolute left-0 top-0 bottom-0 w-2/3 bg-blue-200 rounded-md"></div>
       <div class="absolute left-0 top-0 bottom-0 w-1/3 bg-blue-500 rounded-md"></div>
       <div class="absolute left-6 top-1/2 transform -translate-y-1/2 font-bold text-blue-800">Public Transport Coverage</div>
       <div class="absolute right-6 top-1/2 transform -translate-y-1/2 font-bold">33%</div>
     </div>
     
-    <div v-click class="relative h-16">
+  <div v-click class="relative h-16">
       <div class="absolute left-0 top-0 bottom-0 w-1/2 bg-purple-200 rounded-md"></div>
       <div class="absolute left-0 top-0 bottom-0 w-1/2 bg-purple-500 rounded-md"></div>
       <div class="absolute left-6 top-1/2 transform -translate-y-1/2 font-bold text-purple-800">Connected Green Spaces</div>
@@ -875,7 +875,7 @@ transition: slide-up
 
 ---
 transition: zoom-in
-background: https://source.unsplash.com/0rZ2-QWl0UI/1920x1080
+background: https://images.unsplash.com/photo-1659019479972-82d9e3e8cfb7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 class: text-center
 ---
 
@@ -957,7 +957,7 @@ transition: slide-left
 
 ---
 layout: image-right
-image: https://source.unsplash.com/X7oz17bhhdU/800x900
+image: https://plus.unsplash.com/premium_photo-1664635402369-f9a972139fa4?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 transition: fade-out
 ---
 
@@ -1002,7 +1002,7 @@ transition: slide-up
   <div v-click class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl shadow-md border border-green-200">
     <h3 class="text-xl font-bold text-green-700 mb-4">Success Factors</h3>
     
-    <ul class="space-y-3">
+  <ul class="space-y-3">
       <li class="flex items-start">
         <carbon:checkmark-filled class="text-green-600 mt-1 mr-2 flex-shrink-0" />
         <span>Strong public-private partnership model</span>
@@ -1025,7 +1025,7 @@ transition: slide-up
   <div v-click class="bg-gradient-to-br from-amber-50 to-amber-100 p-6 rounded-xl shadow-md border border-amber-200">
     <h3 class="text-xl font-bold text-amber-700 mb-4">Challenges Overcome</h3>
     
-    <ul class="space-y-3">
+   <ul class="space-y-3">
       <li class="flex items-start">
         <carbon:close-filled class="text-amber-600 mt-1 mr-2 flex-shrink-0" />
         <span>Digital divide across population segments</span>
@@ -1061,7 +1061,7 @@ transition: fade
     <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg blur opacity-30 group-hover:opacity-50 transition duration-300"></div>
     <div class="relative bg-white p-5 rounded-lg shadow-lg">
       <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
-        <carbon-trophy class="text-3xl text-blue-600" />
+        <carbon:trophy class="text-3xl text-blue-600" />
       </div>
       <h3 class="font-bold mb-2">Smart Cities India Award</h3>
       <p class="text-sm text-gray-600">Heritage Conservation Category, 2022</p>
@@ -1114,7 +1114,7 @@ class: text-center
 
 <div class="abs-bl m-6 flex gap-2">
   <a href="https://www.smartcities.gov.in/" target="_blank" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-globe />
+    <carbon:globe />
   </a>
   <a href="https://jscljaipur.in/" target="_blank" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon:home />
