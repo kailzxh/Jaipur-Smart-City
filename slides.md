@@ -388,7 +388,7 @@ transition: fade-out
       </div>
     </div>
     
-    <div v-click class="flex items-start">
+  <div v-click class="flex items-start">
       <div class="bg-blue-500 p-2 rounded-full text-white mr-4">
         <carbon:warning-alt class="text-xl" />
       </div>
@@ -459,7 +459,7 @@ transition: slide-left
       </li>
     </ul>
     
-    <img src="https://images.unsplash.com/photo-1591284080149-58e039950b29?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="mt-6 rounded-lg shadow-md" />
+  <img src="https://images.unsplash.com/photo-1545661956-7866c7237ad9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2l0eSUyMHdpdGglMjAlMjB3YXN0ZSUyMGFuZCUyMHVuc3N0cnVjdHVyZXN8ZW58MHx8MHx8fDA%3D" class="mt-6 rounded-lg shadow-md" />
   </div>
   
   <div class="text-left" v-motion :initial="{ x: 50, opacity: 0 }" :enter="{ x: 0, opacity: 1, transition: { delay: 300 } }">
@@ -479,7 +479,7 @@ transition: slide-left
       </li>
     </ul>
     
-    <img src="https://plus.unsplash.com/premium_photo-1726786836056-79f08e0334fa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="mt-6 rounded-lg shadow-md" />
+  <img src="https://images.unsplash.com/photo-1561784493-88b0a3ce0c76?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGluZGlhbiUyMGNpdHklMjB3aXRoJTIwJTIwZ29vZCUyMGluZnJhfGVufDB8fDB8fHww" />
   </div>
 </div>
 
@@ -613,7 +613,7 @@ transition: fade-out
 
 <div class="grid grid-cols-2 gap-8 pt-8">
   <div v-motion :initial="{ x: -80, opacity: 0 }" :enter="{ x: 0, opacity: 1 }">
-    <img src="https://source.unsplash.com/EXdXLrZXS9Q/500x300" class="rounded-lg shadow-lg mb-4" />
+    <img src="https://images.unsplash.com/photo-1711895835003-5bd48e625d7e?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="rounded-lg shadow-lg mb-4" />
     
   <div v-click class="bg-white/90 backdrop-blur-sm rounded-lg p-4 -mt-20 mx-10 relative shadow-lg z-10">
       <h3 class="font-bold text-pink-600">AR Historical Experiences</h3>
@@ -622,7 +622,7 @@ transition: fade-out
   </div>
   
   <div v-motion :initial="{ x: 80, opacity: 0 }" :enter="{ x: 0, opacity: 1, transition: { delay: 300 } }">
-    <img src="https://source.unsplash.com/yZ4cX5-Vu2o/500x300" class="rounded-lg shadow-lg mb-4" />
+    <img src="https://images.unsplash.com/photo-1712479667983-9f2872d33fb9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c21hcnQlMjB0b3VyaXNtJTIwZ3VpZGVzfGVufDB8fDB8fHww" class="rounded-lg shadow-lg mb-4" />
     
   <div v-click class="bg-white/90 backdrop-blur-sm rounded-lg p-4 -mt-20 mx-10 relative shadow-lg z-10">
       <h3 class="font-bold text-pink-600">Smart Tourist Guides</h3>
@@ -698,7 +698,7 @@ transition: slide-left
 <div class="grid grid-cols-2 gap-8 pt-6">
   <div v-click>
     <h3 class="text-xl font-bold text-green-600 mb-4">Air Quality Management</h3>
-    <img src="https://source.unsplash.com/9NCZyWkYWiU/500x250" class="rounded-lg shadow-lg mb-4" />
+    <img src="https://images.unsplash.com/photo-1701146125128-b0b03267e58a?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="rounded-lg shadow-lg mb-4" />
     
   <div class="bg-white/90 backdrop-blur-sm p-4 rounded-lg shadow-md -mt-16 mx-16 relative z-10">
       <p class="text-sm">Network of 50+ IoT-based air quality monitors providing real-time data</p>
